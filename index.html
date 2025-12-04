@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html class="dark" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>VÉRTICE Propiedades Homepage Revisada</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings:
+            'FILL' 0,
+            'wght' 300,
+            'GRAD' 0,
+            'opsz' 24
+        }
+        @keyframes gradient-animation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        .animated-gradient {
+            background: linear-gradient(-45deg, #d4af35, #0a0a0a, #0d1a26, #d4af35);
+            background-size: 400% 400%;
+            animation: gradient-animation 15s ease infinite;
+        }
+    </style>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#d4af35",
+                        "background-light": "#f8f7f6",
+                        "background-dark": "#201d12",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-background-dark font-display text-white">
+<div class="relative flex min-h-screen w-full flex-col">
+<header class="fixed top-0 left-0 right-0 z-50 flex items-center justify-center py-3 backdrop-blur-md bg-background-dark/80 border-b border-solid border-white/10">
+<div class="flex items-center justify-between w-full max-w-6xl px-4">
+<div class="flex items-center gap-4 text-white">
+<div class="size-5">
+<svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M44 4H30.6666V17.3334H17.3334V30.6666H4V44H44V4Z" fill="currentColor"></path>
+</svg>
+</div>
+<h2 class="text-white text-xl font-bold tracking-[-0.015em]">VÉRTICE</h2>
+</div>
+<nav class="hidden md:flex items-center gap-9">
+<a class="text-white/80 hover:text-white transition-colors text-sm font-medium" href="#">Propiedades</a>
+<a class="text-white/80 hover:text-white transition-colors text-sm font-medium" href="#">Servicios</a>
+<a class="text-white/80 hover:text-white transition-colors text-sm font-medium" href="#">Nosotros</a>
+<a class="text-white/80 hover:text-white transition-colors text-sm font-medium" href="#">Contacto</a>
+</nav>
+<button class="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-background-dark text-sm font-bold tracking-[0.015em] hover:bg-yellow-300 transition-colors">
+<span class="truncate">Contactar</span>
+</button>
+</div>
+</header>
+<main class="flex-grow">
+<section class="relative flex min-h-[70vh] md:min-h-screen items-center justify-center text-center overflow-hidden">
+<div class="absolute inset-0 animated-gradient"></div>
+<div class="relative z-10 flex flex-col items-center gap-6 p-4">
+<h1 class="text-white text-4xl font-black leading-tight tracking-tighter md:text-6xl max-w-4xl">Bienvenido a VÉRTICE Propiedades: Arquitectura que Trasciende</h1>
+</div>
+</section>
+<section class="py-20 md:py-28 px-4">
+<div class="max-w-6xl mx-auto">
+<h2 class="text-white text-3xl font-bold leading-tight tracking-tight px-4 pb-8 md:text-4xl">Propiedades Destacadas</h2>
+<div class="grid grid-cols-1 md:grid-cols-4 grid-rows-2 gap-4 md:gap-6">
+<div class="relative group overflow-hidden rounded-xl md:col-span-2 md:row-span-2 backdrop-blur-sm bg-white/5 border border-white/10">
+<img class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Modern villa with infinity pool overlooking the ocean at sunset" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDDbpCv2gbuRoJaIjsN8ufgP7_6wj9d_Qims-Htv7sbxqreGbZACy8jKjmCMYXy5nwD9BWIMC9RtRMTNt_z6rgV0yMHpFAcXwPP_T199PPxratqCGOcJ4uEewYvbTVU2abZYtaQvZYooZV7dM1A63xgUP51DDlYPd5GrW-YZHcd-XZ6UPCHASSEu18cdAAlbMnUXVpEp2C4NhbShGMCuCYDicQpn_VCYPS7fKnQ3MIwje54Cf8nz1m022_y3HkbQ0LM_z2uKhHagJk"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
+<div class="absolute top-4 left-4 text-xs font-bold uppercase tracking-wider bg-primary/80 text-background-dark py-1 px-3 rounded-full shadow-lg" style="text-shadow: 0 0 10px #d4af35;">EXCLUSIVO</div>
+<div class="absolute bottom-0 left-0 p-6 w-full text-white">
+<h3 class="text-xl font-bold">Penthouse en Brickell</h3>
+<div class="opacity-0 group-hover:opacity-100 transition-opacity duration-300 mt-2">
+<p class="text-sm text-white/80">$3,500,000 | 350 m² | Miami, FL</p>
+<button class="mt-3 text-sm font-bold bg-white/20 hover:bg-white/30 py-2 px-4 rounded-lg backdrop-blur-sm">Ver Detalles</button>
+</div>
+</div>
+</div>
+<div class="relative group overflow-hidden rounded-xl md:col-span-2 h-64 md:h-auto backdrop-blur-sm bg-white/5 border border-white/10">
+<img class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Spacious modern house with large windows and a manicured lawn" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBNUAlLLFaovYCaazAnVaeBeH4pjoEShGP2EFHzP68SafakOsIQJprhVR7xWD0HBNfIjTxEshi6RcIqKqO5uyQlOMm6uelOxw6q20gBZ7v537JCpIfHOdJp6lbxQbJdUVAJtMpo4LZni1jyhbfwLqVqzqPgj127ptg6DYAj7cuKiWiSY_SFVj_2GMI1_nOk3MrR6TVSceye_4OZF9rkqtUXtVIEZcxWgNFhDYGMzQGdxort9a6gXoFsA5Wq5k4OZrPL7TnTcZKWI_g"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
+<div class="absolute top-4 left-4 text-xs font-bold uppercase tracking-wider bg-green-400/80 text-background-dark py-1 px-3 rounded-full shadow-lg" style="text-shadow: 0 0 10px #6ee7b7;">NUEVO</div>
+<div class="absolute bottom-0 left-0 p-6 w-full text-white">
+<h3 class="text-xl font-bold">Villa en Miami Beach</h3>
+<div class="opacity-0 group-hover:opacity-100 transition-opacity duration-300 mt-2">
+<p class="text-sm text-white/80">$5,200,000 | 500 m² | Miami Beach, FL</p>
+<button class="mt-3 text-sm font-bold bg-white/20 hover:bg-white/30 py-2 px-4 rounded-lg backdrop-blur-sm">Ver Detalles</button>
+</div>
+</div>
+</div>
+<div class="relative group overflow-hidden rounded-xl md:col-span-1 h-64 md:h-auto backdrop-blur-sm bg-white/5 border border-white/10">
+<img class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Luxury home with a swimming pool and patio area" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBUG766Y6__tzA1Sa8sMQFjqPZZCsHMdSaRrDhAx0XNcGLvrRaBqi682Pz-ZLWNP3HmQWo81lTycuQPxYql-Dmn4OdCdb2c48hYDYyyNmuSFFM0JNPveSFyFTE7csR7XQJtZVAtLrF10iJm22_Wldso7G3K-EU6AwQZjoRNQKXp4ygdSdyPnKhFVp_ZvNNls0uOLSqAVFLmqqTbIUv4HDrGd_kcoXgGPXYddVN79G1bun1Ot0O3c7eAY2J6P_Xfz_TKarnrJdPQs84"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-6 w-full text-white">
+<h3 class="text-xl font-bold">Loft en Wynwood</h3>
+<div class="opacity-0 group-hover:opacity-100 transition-opacity duration-300 mt-2">
+<p class="text-sm text-white/80">$1,800,000 | 180 m² | Miami, FL</p>
+<button class="mt-3 text-sm font-bold bg-white/20 hover:bg-white/30 py-2 px-4 rounded-lg backdrop-blur-sm">Ver Detalles</button>
+</div>
+</div>
+</div>
+<div class="relative group overflow-hidden rounded-xl md:col-span-1 h-64 md:h-auto backdrop-blur-sm bg-white/5 border border-white/10">
+<img class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Elegant two-story house with a grey exterior" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAJuJDqXfvSsOjUxJppTJXMLi5ioz4oOuG7XMXBEa4kmqSeGfTmia2Qk1VgkTJ5DqkUtsbsXP4mCt1Xtte3L7vbsYKE6X0CNLuhQ2Y9kaR_U4KHTKKm0g9z6Rvc1-EQwzpgOtYZRDuwZuxDOuV2o5B-8LoH1rqy5tgfOkClSM45MLh1PFaahWBe-TjZDQD7K7RGpSy7nextyNGVHwksZNflAorQD8ERLrucc0OeZwMlcoyPbZJDA98KJbcTCk0awdWGmXXAU4EoIOw"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-6 w-full text-white">
+<h3 class="text-xl font-bold">Residencia en Coral Gables</h3>
+<div class="opacity-0 group-hover:opacity-100 transition-opacity duration-300 mt-2">
+<p class="text-sm text-white/80">$4,100,000 | 420 m² | Coral Gables, FL</p>
+<button class="mt-3 text-sm font-bold bg-white/20 hover:bg-white/30 py-2 px-4 rounded-lg backdrop-blur-sm">Ver Detalles</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 md:py-28 bg-black/20">
+<div class="max-w-6xl mx-auto px-4">
+<h2 class="text-white text-3xl font-bold leading-tight tracking-tight text-center mb-12 md:text-4xl">Agendar una Cita</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+<div class="bg-white/5 border border-white/10 rounded-xl p-8">
+<h3 class="text-xl font-bold mb-2">Seleccione Fecha y Hora</h3>
+<p class="text-white/70 text-sm mb-6">Elija un horario disponible para conectar con uno de nuestros asesores expertos.</p>
+<div class="h-[400px] bg-background-dark rounded-lg flex items-center justify-center border border-white/10">
+<p class="text-white/50">Calendly Widget Placeholder</p>
+</div>
+</div>
+<div class="bg-white/5 border border-white/10 rounded-xl p-8">
+<h3 class="text-xl font-bold mb-6">Complete sus Datos</h3>
+<form action="#" class="space-y-6" method="POST">
+<div>
+<label class="text-sm font-medium text-white/80" for="name">Nombre Completo</label>
+<input class="mt-2 w-full bg-white/5 border border-white/20 rounded-lg px-4 py-2.5 focus:ring-primary focus:border-primary text-white placeholder-white/40" id="name" name="name" placeholder="Su nombre" required="" type="text"/>
+</div>
+<div>
+<label class="text-sm font-medium text-white/80" for="email">Correo Electrónico</label>
+<input class="mt-2 w-full bg-white/5 border border-white/20 rounded-lg px-4 py-2.5 focus:ring-primary focus:border-primary text-white placeholder-white/40" id="email" name="email" placeholder="su@email.com" required="" type="email"/>
+</div>
+<div>
+<label class="text-sm font-medium text-white/80" for="phone">Teléfono</label>
+<input class="mt-2 w-full bg-white/5 border border-white/20 rounded-lg px-4 py-2.5 focus:ring-primary focus:border-primary text-white placeholder-white/40" id="phone" name="phone" placeholder="+52 55 1234 5678" required="" type="tel"/>
+</div>
+<div>
+<label class="text-sm font-medium text-white/80" for="message">Mensaje</label>
+<textarea class="mt-2 w-full bg-white/5 border border-white/20 rounded-lg px-4 py-2.5 focus:ring-primary focus:border-primary text-white placeholder-white/40" id="message" name="message" placeholder="¿Cómo podemos ayudarle?" required="" rows="4"></textarea>
+</div>
+<button class="w-full h-12 px-8 bg-primary text-background-dark text-base font-bold tracking-[0.015em] rounded-lg hover:bg-yellow-300 transition-colors" type="submit">Enviar Solicitud</button>
+</form>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 md:py-28">
+<div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center gap-12">
+<div class="flex-1 text-center md:text-left">
+<h2 class="text-white text-3xl font-bold leading-tight tracking-tight md:text-4xl">Nuestra Ubicación</h2>
+<p class="mt-4 text-white/70 max-w-md">Visítenos en nuestra oficina central para una consulta personalizada. Estamos ubicados en el corazón financiero de la Ciudad de México.</p>
+<div class="mt-6 flex items-center gap-3 justify-center md:justify-start">
+<span class="material-symbols-outlined text-primary text-2xl">location_on</span>
+<p class="text-white font-medium">Reforma 242, Edificio MAPFRE, Ciudad de México</p>
+</div>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-8 bg-primary text-background-dark text-base font-bold tracking-[0.015em] hover:scale-105 transition-transform duration-300 mt-8 mx-auto md:mx-0">
+<span class="truncate">Obtener Direcciones</span>
+</button>
+</div>
+<div class="flex-1 w-full">
+<div class="h-80 w-full rounded-xl overflow-hidden border border-white/10">
+<img class="w-full h-full object-cover grayscale brightness-50" data-alt="Mapa interactivo mostrando la ubicación de Reforma 242, Ciudad de México" data-location="Reforma 242, Edificio MAPFRE, Ciudad de México" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAXwBdAWA5K-vqhmxXEdtU_mNbNBhzNvK7EJBU5fpO6sNwLBI_S4h1yTsnm2lOZUCfJfHj8PHvYiGsdywz8Xn6qcQV0kKolgD5fwjg4HB-0uQHI8H4_Z5nZmr3oOkVexxLsAvchaajCkkjS6F2of0nJzxhrROg8UmpyI6p1r2Z9Hhnf-fFCqmyfGhBYkR9Dvz_nw5j0yoBIwYsqKL_jzHVAr714aIPrqPP7OU5Naiv_WfMMlwMlKPYa9Id8g55EI6cN2ZX1tr-KMuM"/>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="bg-black py-16">
+<div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-12 text-sm">
+<div class="md:col-span-2">
+<div class="flex items-center gap-4 text-white mb-4">
+<div class="size-5">
+<svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M44 4H30.6666V17.3334H17.3334V30.6666H4V44H44V4Z" fill="currentColor"></path>
+</svg>
+</div>
+<h2 class="text-white text-xl font-bold tracking-[-0.015em]">VÉRTICE</h2>
+</div>
+<p class="text-white/60 leading-relaxed mb-6">Suscríbase a nuestro boletín para recibir las últimas propiedades exclusivas y noticias del mercado.</p>
+<div class="flex gap-2">
+<input class="flex-grow bg-white/5 border border-white/20 rounded-lg px-4 h-11 focus:ring-primary focus:border-primary text-white placeholder-white/40" placeholder="Su correo electrónico" type="email"/>
+<button class="flex-shrink-0 h-11 px-6 bg-primary text-background-dark font-bold rounded-lg hover:bg-yellow-300 transition-colors">Suscribirse</button>
+</div>
+</div>
+<div class="md:col-span-1">
+<h4 class="font-bold text-white mb-4 uppercase tracking-wider">Contacto</h4>
+<p class="text-white/60">Reforma 242, Edificio MAPFRE</p>
+<p class="text-white/60">Ciudad de México, CDMX</p>
+<p class="text-white/60 mt-2">info@vertice.com</p>
+<div class="mt-4 flex gap-4">
+<a class="text-white/60 hover:text-primary transition-colors" href="#">IG</a>
+<a class="text-white/60 hover:text-primary transition-colors" href="#">FB</a>
+<a class="text-white/60 hover:text-primary transition-colors" href="#">LI</a>
+</div>
+</div>
+<div class="md:col-span-1">
+<div class="h-40 rounded-lg overflow-hidden border border-white/10">
+<img class="w-full h-full object-cover grayscale brightness-50" data-alt="Abstract map showing a location pin in Reforma, Mexico City" data-location="Reforma 242, Edificio MAPFRE, Ciudad de México" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAXwBdAWA5K-vqhmxXEdtU_mNbNBhzNvK7EJBU5fpO6sNwLBI_S4h1yTsnm2lOZUCfJfHj8PHvYiGsdywz8Xn6qcQV0kKolgD5fwjg4HB-0uQHI8H4_Z5nZmr3oOkVexxLsAvchaajCkkjS6F2of0nJzxhrROg8UmpyI6p1r2Z9Hhnf-fFCqmyfGhBYkR9Dvz_nw5j0yoBIwYsqKL_jzHVAr714aIPrqPP7OU5Naiv_WfMMlwMlKPYa9Id8g55EI6cN2ZX1tr-KMuM"/>
+</div>
+</div>
+</div>
+<div class="max-w-6xl mx-auto px-4 mt-12 pt-8 border-t border-white/10 text-center text-xs text-white/40">
+<p>© 2024 VÉRTICE Propiedades. Todos los derechos reservados.</p>
+</div>
+</footer>
+</div>
+
+</body></html>
